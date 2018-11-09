@@ -1,0 +1,24 @@
+[prune]
+  non-go = true
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+  name = "github.com/docker/distribution"
+  revision = "v2.7.0-rc.0"
+
+[[constraint]]
+  name = "github.com/docker/cli"
+  revision = "v18.06.1-ce"
+
+[[constraint]]
+  name = "github.com/docker/docker"
+  revision = "fda9397826dcb51b4e2fdc4bc1f8ce61fba7d884"
+
+[[override]]
+  name = "github.com/moby/buildkit"
+  revision = "47c4888ab1157e513dc4b9dc51e2167a797acf18"
+
+[[override]]
+  name = "github.com/tonistiigi/fsutil"
+  revision = "b19464cd1b6a00773b4f2eb7acf9c30426f9df42"
